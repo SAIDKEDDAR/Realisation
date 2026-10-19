@@ -1,12 +1,8 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   background-color: #fafaf7;
   color: #1c1f2a;
-  font-family:  sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
   line-height: 1.6;
 }
@@ -16,23 +12,19 @@ h2,
 h3,
 .logo,
 .footer-logo {
-  font-family: "Bricolage Grotesque", Verdana, sans-serif;
-  line-height: 1.2;
+  font-family: Verdana, sans-serif;
 }
 
 h1 {
-  margin: 0 0 20px;
   font-size: 52px;
 }
 
 h2 {
-  margin: 0 0 30px;
   color: #16224d;
   font-size: 34px;
 }
 
 h3 {
-  margin: 0 0 8px;
   font-size: 21px;
 }
 
@@ -47,18 +39,15 @@ a {
 .wrap {
   width: 90%;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .button {
   display: inline-block;
   padding: 12px 24px;
-  border: 2px solid transparent;
   border-radius: 4px;
-  font: inherit;
   font-weight: bold;
   text-decoration: none;
-  cursor: pointer;
 }
 
 .button-blue {
@@ -80,7 +69,7 @@ a {
 }
 
 .button-outline {
-  border-color: white;
+  border: 2px solid white;
   color: white;
 }
 
@@ -91,10 +80,9 @@ a {
 
 .site-header {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 12px 24px;
+  flex-wrap: wrap;
   padding: 18px 5%;
 }
 
@@ -108,18 +96,17 @@ a {
 nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 26px;
+  gap: 26px;
 }
 
 nav a {
-  border-bottom: 3px solid transparent;
   color: #16224d;
   font-weight: bold;
   text-decoration: none;
 }
 
 nav a:hover {
-  border-bottom-color: #e39a1b;
+  border-bottom: 3px solid #e39a1b;
 }
 
 .hero {
@@ -130,7 +117,7 @@ nav a:hover {
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1fr 1fr;
   align-items: end;
   gap: 48px;
 }
@@ -141,7 +128,6 @@ nav a:hover {
 
 .intro {
   max-width: 520px;
-  margin: 0 0 30px;
   color: #d5dbf2;
   font-size: 20px;
 }
@@ -165,9 +151,9 @@ nav a:hover {
 }
 
 .band {
+  margin-top: 100px;
   padding: 80px 0;
   background-color: #e9edf8;
-  margin-top: 100px;
 }
 
 .shop {
@@ -177,17 +163,12 @@ nav a:hover {
 .promises,
 .steps {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
 }
 
 .promises h3 {
   color: #2848b8;
-}
-
-.promises p,
-.steps p {
-  margin: 0;
 }
 
 .steps {
@@ -200,13 +181,12 @@ nav a:hover {
   display: inline-block;
   width: 44px;
   height: 44px;
-  margin-bottom: 12px;
   border-radius: 50%;
   background-color: #e39a1b;
   color: #16224d;
-  font-weight: bold;
   line-height: 44px;
   text-align: center;
+  font-weight: bold;
 }
 
 .product {
@@ -232,12 +212,10 @@ nav a:hover {
 }
 
 .origin {
-  margin: 0 0 12px;
   color: #4f5671;
 }
 
 .price {
-  margin: 0 0 20px;
   color: #16224d;
   font-size: 24px;
   font-weight: bold;
@@ -261,7 +239,7 @@ input {
   padding: 12px 16px;
   border: 2px solid #aeb8dc;
   border-radius: 4px;
-  font: inherit;
+  font-size: 18px;
 }
 
 .site-footer {
@@ -277,7 +255,6 @@ input {
 }
 
 .footer-logo {
-  margin: 0 0 8px;
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -288,26 +265,22 @@ footer h3 {
   font-size: 18px;
 }
 
-footer p {
-  margin: 0;
-}
 footer ul {
-  margin: 0;
   padding: 0;
   list-style: none;
 }
-footer li {
-  margin-bottom: 8px;
-}
+
 footer a {
   color: white;
 }
+
 .copyright {
   margin-top: 40px;
   padding-top: 20px;
   border-top: 1px solid #2c3866;
   font-size: 15px;
 }
+
 @media (max-width: 800px) {
   h1 {
     font-size: 36px;
