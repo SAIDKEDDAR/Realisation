@@ -4,65 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sanaâ Market</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
 </head>
 
 <body>
 
-  <header class="site-header">
+  <header>
     <a class="logo" href="#accueil">Sanaâ Market</a>
 
     <nav>
       <a href="#boutique">La boutique</a>
       <a href="#engagement">Notre engagement</a>
-      <a href="#commande">Comment commander</a>
     </nav>
 
-    <a class="button button-blue" href="#">
-      Écrire sur WhatsApp
-    </a>
+    <a class="button bleu" href="#">Écrire sur WhatsApp</a>
   </header>
 
   <main>
-
     <section id="accueil" class="hero">
-      <div class="wrap hero-grid">
-
-        <div class="hero-text">
+      <div class="conteneur hero-contenu">
+        <div>
           <h1>Des mains qui créent, des histoires à partager</h1>
 
-          <p class="intro">
+          <p>
             Découvrez les produits authentiques des coopératives marocaines.
             Chaque commande rémunère directement celles qui les fabriquent.
           </p>
 
-          <div class="actions">
-            <a class="button button-honey" href="#boutique">
-              Voir les produits
-            </a>
-
-            <a class="button button-outline" href="#engagement">
-              Notre engagement
-            </a>
-          </div>
+          <a class="button jaune" href="#boutique">Voir les produits</a>
+          <a class="button contour" href="#engagement">Notre engagement</a>
         </div>
 
-        <img
-          class="hero-photo"
-          src="image/tapis.jpg"
-          alt="Tapis marocain tissé à la main par une coopérative"
-        >
-
+        <img src="image/tapis.jpg" alt="Tapis marocain tissé à la main">
       </div>
-
-      <div class="zellige"></div>
     </section>
 
-    <section id="engagement" class="band">
-      <div class="wrap">
+    <section id="boutique" class="boutique">
+      <div class="conteneur">
+        <h2>Nos produits</h2>
+
+        <article class="produit">
+          <img src="image/tapis.jpg" alt="Tapis Beni Ouraïn en laine">
+
+          <div>
+            <h3>Tapis Beni Ouraïn</h3>
+            <p>Coopérative de tisseuses, Azilal</p>
+            <p class="prix">2 450 MAD</p>
+            <a class="button bleu" href="#">Précommander</a>
+          </div>
+        </article>
+
+        <article class="produit">
+          <img src="image/honey.jpg" alt="Pot de miel de montagne marocain">
+
+          <div>
+            <h3>Miel de montagne</h3>
+            <p>Coopérative Tighanimine, Dadès</p>
+            <p class="prix">180 MAD</p>
+            <a class="button bleu" href="#">Précommander</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="engagement" class="engagement">
+      <div class="conteneur">
         <h2>Un commerce plus juste</h2>
 
-        <div class="promises">
+        <div class="colonnes">
           <div>
             <h3>90 % pour les coopératives</h3>
             <p>Les coopératives gardent 90 % du prix de vente.</p>
@@ -80,137 +89,7 @@
         </div>
       </div>
     </section>
-
-    <section id="boutique" class="shop">
-      <div class="wrap">
-        <h2>Nos produits</h2>
-
-        <article class="product">
-          <img
-            src="image/tapis.jpg"
-            alt="Tapis Beni Ouraïn en laine"
-          >
-
-          <div>
-            <h3>Tapis Beni Ouraïn</h3>
-            <p class="origin">Coopérative de tisseuses, Azilal</p>
-            <p class="price">2 450 MAD</p>
-
-            <a class="button button-blue" href="#">
-              Précommander
-            </a>
-          </div>
-        </article>
-
-        <article class="product">
-          <img
-            src="image/honey.jpg"
-            alt="Pot de miel de montagne marocain"
-          >
-
-          <div>
-            <h3>Miel de montagne</h3>
-            <p class="origin">Coopérative Tighanimine, Dadès</p>
-            <p class="price">180 MAD</p>
-
-            <a class="button button-blue" href="#">
-              Précommander
-            </a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="commande" class="band">
-      <div class="wrap">
-        <h2>Comment commander</h2>
-
-        <ol class="steps">
-          <li>
-            <span class="step-number">1</span>
-            <h3>Choisissez un produit</h3>
-            <p>Parcourez la boutique et repérez la pièce qui vous plaît.</p>
-          </li>
-
-          <li>
-            <span class="step-number">2</span>
-            <h3>Précommandez par WhatsApp</h3>
-            <p>
-              Le bouton « Précommander » ouvre une conversation avec un message
-              déjà écrit.
-            </p>
-          </li>
-
-          <li>
-            <span class="step-number">3</span>
-            <h3>La coopérative fabrique votre commande</h3>
-            <p>Vous pouvez commander depuis le Maroc ou l’étranger.</p>
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section id="newsletter" class="band">
-      <div class="wrap">
-        <h2>Recevoir les nouvelles du souk</h2>
-
-        <form action="#" method="post">
-          <label for="email">Votre adresse e-mail</label>
-
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="nom@exemple.com"
-            required
-          >
-
-          <button class="button button-blue" type="submit">
-            M’inscrire
-          </button>
-        </form>
-      </div>
-    </section>
-
   </main>
-
-  <footer class="site-footer">
-    <div class="wrap footer-grid">
-
-      <div>
-        <p class="footer-logo">Sanaâ Market</p>
-        <p>Le savoir-faire marocain, en direct.</p>
-      </div>
-
-      <div>
-        <h3>Navigation</h3>
-        <ul>
-          <li><a href="#boutique">La boutique</a></li>
-          <li><a href="#engagement">Notre engagement</a></li>
-          <li><a href="#commande">Comment commander</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>Contact</h3>
-        <ul>
-          <li>
-            <a href="#">WhatsApp</a>
-          </li>
-          <li>
-            <a href="mailto:votre-email@exemple.com">
-              votre-email@exemple.com
-            </a>
-          </li>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="wrap">
-      <p class="copyright">© Sanaâ Market</p>
-    </div>
-  </footer>
 
 </body>
 </html>
