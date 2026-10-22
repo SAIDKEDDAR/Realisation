@@ -2,94 +2,95 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sanaâ Market</title>
-  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
   <header>
-    <a class="logo" href="#accueil">Sanaâ Market</a>
+    <div class="entete">
+      <a class="logo" href="#accueil">Sanaâ Market</a>
 
-    <nav>
-      <a href="#boutique">La boutique</a>
-      <a href="#engagement">Notre engagement</a>
-    </nav>
-
-    <a class="button bleu" href="#">Écrire sur WhatsApp</a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#produits">Produits</a></li>
+          <li><a href="#cooperatives">Coopératives</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section id="accueil" class="hero">
-      <div class="conteneur hero-contenu">
-        <div>
-          <h1>Des mains qui créent, des histoires à partager</h1>
-
-          <p>
-            Découvrez les produits authentiques des coopératives marocaines.
-            Chaque commande rémunère directement celles qui les fabriquent.
-          </p>
-
-          <a class="button jaune" href="#boutique">Voir les produits</a>
-          <a class="button contour" href="#engagement">Notre engagement</a>
-        </div>
-
-        <img src="image/tapis.jpg" alt="Tapis marocain tissé à la main">
+    <section id="accueil">
+      <div>
+        <p class="surtitre">L'artisanat marocain, directement à votre porte</p>
+        <h1>Des créations uniques, façonnées par des femmes talentueuses.</h1>
+        <p>
+          Commandez avant la fabrication, sans intermédiaires.
+          10 % de commission seulement.
+        </p>
+        <a class="bouton" href="#produits">Pré-commander</a>
       </div>
     </section>
 
-    <section id="boutique" class="boutique">
-      <div class="conteneur">
-        <h2>Nos produits</h2>
+    <section id="produits">
+      <div>
+        <p class="surtitre">Sélection du moment</p>
+        <h2>Produits à découvrir</h2>
+      </div>
 
-        <article class="produit">
-          <img src="image/tapis.jpg" alt="Tapis Beni Ouraïn en laine">
+      <div>
+        <div class="prd">
+          <p>Tissage traditionnel</p>
+          <h3>Tapis du Moyen Atlas</h3>
+          <p>Coopérative Tifawin</p>
+          <p>Azrou</p>
+          <p class="prix">1 200 MAD</p>
+          <a class="bouton" href="#contact">Pré-commander</a>
+        </div>
 
-          <div>
-            <h3>Tapis Beni Ouraïn</h3>
-            <p>Coopérative de tisseuses, Azilal</p>
-            <p class="prix">2 450 MAD</p>
-            <a class="button bleu" href="#">Précommander</a>
-          </div>
-        </article>
-
-        <article class="produit">
-          <img src="image/honey.jpg" alt="Pot de miel de montagne marocain">
-
-          <div>
-            <h3>Miel de montagne</h3>
-            <p>Coopérative Tighanimine, Dadès</p>
-            <p class="prix">180 MAD</p>
-            <a class="button bleu" href="#">Précommander</a>
-          </div>
-        </article>
+        <div class="prd">
+          <p>Récolte artisanale</p>
+          <h3>Miel de thym</h3>
+          <p>Coopérative Toudarte</p>
+          <p>Taroudant</p>
+          <p class="prix">180 MAD</p>
+          <a class="bouton" href="#contact">Pré-commander</a>
+        </div>
       </div>
     </section>
 
-    <section id="engagement" class="engagement">
-      <div class="conteneur">
-        <h2>Un commerce plus juste</h2>
+    <section id="cooperatives">
+      <div>
+        <p class="surtitre">Elles sont à l'honneur</p>
+        <h2>Coopératives du mois</h2>
+      </div>
 
-        <div class="colonnes">
-          <div>
-            <h3>90 % pour les coopératives</h3>
-            <p>Les coopératives gardent 90 % du prix de vente.</p>
-          </div>
+      <div>
+        <div class="cop">
+          <h3>Coopérative Tifawin</h3>
+          <p>À Azrou, ses artisanes tissent des tapis aux motifs inspirés du Moyen Atlas.</p>
+        </div>
 
-          <div>
-            <h3>Fabriqué sur commande</h3>
-            <p>Les produits peuvent être fabriqués sur commande.</p>
-          </div>
-
-          <div>
-            <h3>Du Maroc au monde</h3>
-            <p>Les clients peuvent commander depuis le Maroc ou l’étranger.</p>
-          </div>
+        <div class="cop">
+          <h3>Coopérative Toudarte</h3>
+          <p>Près de Taroudant, ses membres récoltent un miel de thym généreux et parfumé.</p>
         </div>
       </div>
+    </section>
+
+    <section id="contact">
+      <div>
+        <p class="surtitre">Parlons ensemble</p>
+        <h2>Contact</h2>
+      </div>
+
+      <p>Une question sur une commande ou une coopérative ? Écrivez-nous.</p>
+      <p><a href="mailto:bonjour@sanaamarket.ma">bonjour@sanaamarket.ma</a></p>
+      <p><a href="https://github.com/SAIDKEDDAR">Retrouvez-nous sur GitHub</a></p>
     </section>
   </main>
-
 </body>
 </html>
