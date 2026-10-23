@@ -1,68 +1,114 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sanaa Market</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+.logo {
+  color: #416fbd;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a {
+  margin-left: 20px;
+  color: #555b68;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav a:hover {color: #416fbd;}
+.hero {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #76685a;
+  background-image: url("image/souk.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.hero-text {
+  width: 900%;
+}
+.hero-text p {
+  font-size: 12px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 48px;
+}
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #416fbd;
+  color: white;
+  text-decoration: none;
+}
 
-  <header>
-    <a class="logo" href="#">SANAA MARKET</a>
-
-    <nav>
-      <a href="#boutique">BOUTIQUE</a>
-      <a href="#avie">Avie</a>
-      <a href="#">À PROPOS</a>
-      <a href="#">BLOG</a>
-    </nav>
-  </header>
-
-  <main class="hero">
-    <div class="hero-text">
-      <p>ARTISANAT MAROCAIN FAIT À LA MAIN</p>
-      <h1>Le marché des artisanes marocaines</h1>
-      <a class="button" href="#boutique">DÉCOUVRIR LA BOUTIQUE</a>
-    </div>
-  </main>
-
-  <div id="avie">
-    <h2>Les avis de nos clients</h2>
-
-    <div class="review-card">
-  <p><strong>- Amine</strong> (Morocco)</p>
-        <p>“Les produit est magnifique, je suis très content .”</p>
-      
-    </div>
-
-    <div class="review-card">
-   <p><strong>- Sarah</strong> (France)</p>
-        <p>“La qualité est excellente, je recommande !.”</p>
-     
-    </div>
-
-    <div class="review-card"> 
-  <p><strong>- Julian</strong> (Spain)</p>
-        <p>“J’ai reçu ma commande rapidement et l’emballage était très soigné.”</p>
-     
-    </div>
-</div>
-
-<section class="produit" id="boutique">
-  <h2>Nos produits</h2>
-
-  <div class="sac">
-    <img src="image/tapis.jpg" alt="Tapis marocain">
-    <h3>Tapis marocain</h3>
-    <p>Un tapis fait à la main avec de belles couleurs.</p>
-  </div>
-
-  <div class="sac">
-    <img src="image/sac.webp" alt="Sac artisanal">
-    <h3>Sac artisanal</h3>
-    <p>Un sac pratique et fabriqué à la main.</p>
-  </div>
-</section>
-</body>
-</html>
+.button:hover {
+  background-color: #315999;
+}
+.contact {
+  display: inline-block;
+  margin: 20px;
+  padding: 13px 18px;
+  background-color: #416fbd;
+  color: white;
+  text-decoration: none;
+}
+#reviews {
+    padding: 30px 15px;
+    text-align: center;
+}
+.review-card {
+    display: inline-block;
+    width: 340px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #f4f4f4;
+    border-left: 4px solid #416fbd ;
+    text-align: left;
+}
+ img {
+  width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+.produit {
+  padding: 40px 20px;
+  background-color: #f7f4ef;
+  text-align: center;
+}
+.produit h2 {
+  color: #416fbd;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.sac {
+  display: inline-block;
+  width: 280px;
+  margin: 10px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  text-align: center;
+}
+.sac img {
+  width: 100%;
+  height: 200px;
+}
+.sac h3 {
+  color: #333333;
+}
