@@ -1,98 +1,68 @@
-body {
-  margin: 0;
-  background-color: #f8f5ef;
-  color: #3d342c;
-  font-family: 'Franklin Gothic Medium',Arial, sans-serif;
-  line-height: 1.6;
-}
-.entete {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 6%;
-  background-color: #743f2b;
-}
-.logo {
-  color: white;
-  font-size: 26px;
-  font-weight: bold;
-  text-decoration: none;
-}
-.menu {
-  display: flex;
-  gap: 22px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.menu a {
-  color: white;
-  text-decoration: none;
-}
-.menu a:hover {
-  color: #f1c27d;
-}
-main {
-  width: 88%;
-  max-width: 1100px;
-  margin: auto;
-}
-section {
-  margin-top: 45px;
-}
-#accueil {
-  margin-top: 30px;
-  padding: 60px 8%;
-  background-color: #e8d6bd;
-  border-radius: 16px;
-}
-#accueil div {
-  max-width: 650px;
-}
-h1 {
-  font-size: 38px;
-  line-height: 1.2;
-}
-h2 {
-  color: #743f2b;
-}
-.surtitre {
-  color: #a45d37;
-  font-weight: bold;
-}
-.prd{
-  padding: 22px;
-  background-color: white;
-  border: 1px solid #e5d9ca;
-  border-radius: 12px;
-  margin-bottom: 15px;
-}
-.cop{
-    background-color: white;
-    border: 1px #e5d9ca solid;
-    padding: 20px;
-    border-radius: 25px;
-    margin-bottom: 15px;
-}
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanaa Market</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-.prix {
-  color: #743f2b;
-  font-size: 20px;
-  font-weight: bold;
-}
-.bouton {
-  display: inline-block;
-  padding: 10px 18px;
-  background-color: #743f2b;
-  color: white;
-  text-decoration: none;
-  border-radius: 7px;
-}
+  <header>
+    <a class="logo" href="#">SANAA MARKET</a>
 
-.bouton:hover {
-  background-color: #a45d37;
-}
+    <nav>
+      <a href="#boutique">BOUTIQUE</a>
+      <a href="#avie">Avie</a>
+      <a href="#">À PROPOS</a>
+      <a href="#">BLOG</a>
+    </nav>
+  </header>
 
-#contact a {
-  color: #743f2b;
-}
+  <main class="hero">
+    <div class="hero-text">
+      <p>ARTISANAT MAROCAIN FAIT À LA MAIN</p>
+      <h1>Le marché des artisanes marocaines</h1>
+      <a class="button" href="#boutique">DÉCOUVRIR LA BOUTIQUE</a>
+    </div>
+  </main>
+
+  <div id="avie">
+    <h2>Les avis de nos clients</h2>
+
+    <div class="review-card">
+  <p><strong>- Amine</strong> (Morocco)</p>
+        <p>“Les produit est magnifique, je suis très content .”</p>
+      
+    </div>
+
+    <div class="review-card">
+   <p><strong>- Sarah</strong> (France)</p>
+        <p>“La qualité est excellente, je recommande !.”</p>
+     
+    </div>
+
+    <div class="review-card"> 
+  <p><strong>- Julian</strong> (Spain)</p>
+        <p>“J’ai reçu ma commande rapidement et l’emballage était très soigné.”</p>
+     
+    </div>
+</div>
+
+<section class="produit" id="boutique">
+  <h2>Nos produits</h2>
+
+  <div class="sac">
+    <img src="image/tapis.jpg" alt="Tapis marocain">
+    <h3>Tapis marocain</h3>
+    <p>Un tapis fait à la main avec de belles couleurs.</p>
+  </div>
+
+  <div class="sac">
+    <img src="image/sac.webp" alt="Sac artisanal">
+    <h3>Sac artisanal</h3>
+    <p>Un sac pratique et fabriqué à la main.</p>
+  </div>
+</section>
+</body>
+</html>

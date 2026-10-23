@@ -2,95 +2,67 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Sanaâ Market</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanaa Market</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <header>
-    <div class="entete">
-      <a class="logo" href="#accueil">Sanaâ Market</a>
 
-      <nav>
-        <ul class="menu">
-          <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#produits">Produits</a></li>
-          <li><a href="#cooperatives">Coopératives</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <a class="logo" href="#">SANAA MARKET</a>
+
+    <nav>
+      <a href="#boutique">BOUTIQUE</a>
+      <a href="#avie">Avie</a>
+      <a href="#">À PROPOS</a>
+      <a href="#">BLOG</a>
+    </nav>
   </header>
 
-  <main>
-    <section id="accueil">
-      <div>
-        <p class="surtitre">L'artisanat marocain, directement à votre porte</p>
-        <h1>Des créations uniques, façonnées par des femmes talentueuses.</h1>
-        <p>
-          Commandez avant la fabrication, sans intermédiaires.
-          10 % de commission seulement.
-        </p>
-        <a class="bouton" href="#produits">Pré-commander</a>
-      </div>
-    </section>
-
-    <section id="produits">
-      <div>
-        <p class="surtitre">Sélection du moment</p>
-        <h2>Produits à découvrir</h2>
-      </div>
-
-      <div>
-        <div class="prd">
-          <p>Tissage traditionnel</p>
-          <h3>Tapis du Moyen Atlas</h3>
-          <p>Coopérative Tifawin</p>
-          <p>Azrou</p>
-          <p class="prix">1 200 MAD</p>
-          <a class="bouton" href="#contact">Pré-commander</a>
-        </div>
-
-        <div class="prd">
-          <p>Récolte artisanale</p>
-          <h3>Miel de thym</h3>
-          <p>Coopérative Toudarte</p>
-          <p>Taroudant</p>
-          <p class="prix">180 MAD</p>
-          <a class="bouton" href="#contact">Pré-commander</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="cooperatives">
-      <div>
-        <p class="surtitre">Elles sont à l'honneur</p>
-        <h2>Coopératives du mois</h2>
-      </div>
-
-      <div>
-        <div class="cop">
-          <h3>Coopérative Tifawin</h3>
-          <p>À Azrou, ses artisanes tissent des tapis aux motifs inspirés du Moyen Atlas.</p>
-        </div>
-
-        <div class="cop">
-          <h3>Coopérative Toudarte</h3>
-          <p>Près de Taroudant, ses membres récoltent un miel de thym généreux et parfumé.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div>
-        <p class="surtitre">Parlons ensemble</p>
-        <h2>Contact</h2>
-      </div>
-
-      <p>Une question sur une commande ou une coopérative ? Écrivez-nous.</p>
-      <p><a href="mailto:bonjour@sanaamarket.ma">bonjour@sanaamarket.ma</a></p>
-      <p><a href="https://github.com/SAIDKEDDAR">Retrouvez-nous sur GitHub</a></p>
-    </section>
+  <main class="hero">
+    <div class="hero-text">
+      <p>ARTISANAT MAROCAIN FAIT À LA MAIN</p>
+      <h1>Le marché des artisanes marocaines</h1>
+      <a class="button" href="#boutique">DÉCOUVRIR LA BOUTIQUE</a>
+    </div>
   </main>
+
+  <div id="avie">
+    <h2>Les avis de nos clients</h2>
+
+    <div class="review-card">
+  <p><strong>- Amine</strong> (Morocco)</p>
+        <p>“Les produit est magnifique, je suis très content .”</p>
+      
+    </div>
+
+    <div class="review-card">
+   <p><strong>- Sarah</strong> (France)</p>
+        <p>“La qualité est excellente, je recommande !.”</p>
+     
+    </div>
+
+    <div class="review-card"> 
+  <p><strong>- Julian</strong> (Spain)</p>
+        <p>“J’ai reçu ma commande rapidement et l’emballage était très soigné.”</p>
+     
+    </div>
+</div>
+
+<section class="produit" id="boutique">
+  <h2>Nos produits</h2>
+
+  <div class="sac">
+    <img src="image/tapis.jpg" alt="Tapis marocain">
+    <h3>Tapis marocain</h3>
+    <p>Un tapis fait à la main avec de belles couleurs.</p>
+  </div>
+
+  <div class="sac">
+    <img src="image/sac.webp" alt="Sac artisanal">
+    <h3>Sac artisanal</h3>
+    <p>Un sac pratique et fabriqué à la main.</p>
+  </div>
+</section>
 </body>
 </html>
