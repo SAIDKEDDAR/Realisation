@@ -1,7 +1,8 @@
+
 <?php
 $siteTitle = "Sanaâ Market";
 $email = "saidkeddar0@gmail.com";
-$date = "2026-11-23";
+$date = "2026-11-25";
 
 $navigation = [
     "#boutique" => "BOUTIQUE",

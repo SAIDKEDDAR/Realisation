@@ -14,7 +14,7 @@ header {
   color: white;
   padding: 15px 25px;
   background-color: #1e4d3b;
-  border-bottom: 4px solid #e3b04b;
+  border-bottom: 5px solid #e3b04b;
 }
 nav a {
   margin-left: 20px;
@@ -22,33 +22,26 @@ nav a {
   font-size: 15px;
   text-decoration: none;
 }
-nav a:hover {
-  color: #e3b04b;
-}
+nav a:hover {color: #e3b04b;}
 .hero {
   height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(20, 50, 38, 0.65), rgba(20, 50, 38, 0.65)),
-    url("image/Artisanat-Marocaine.jpg");
+  background-image:url("image/Artisanat-Marocaine.jpg");
   background-position: center;
   background-size: cover;
   color: white;
   text-align: center;
-}
-.hero-text {
-  width: 90%;
+  border-bottom: 5px solid #e3b04b;
 }
 .hero-text p {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 2px;
-  color: #e3b04b;
+  color: gold;
 }
-h1 {
-  font-size: 48px;
-}
+h1 {font-size: 48px;}
 .button {
   display: inline-block;
   padding: 15px 25px;
@@ -57,26 +50,20 @@ h1 {
   text-decoration: none;
   border-radius: 6px;
 }
-.button:hover {
-  background-color: #a84712;
-}
+.button:hover {background-color: #a84712;}
 #avis {
   padding: 30px 15px;
   text-align: center;
 }
-#avis h2 {
-  color: #1e4d3b;
-}
+#avis h2 {color: #1e4d3b;}
 .card {
   display: inline-block;
-  vertical-align: top;
   width: 340px;
   padding: 15px;
   margin: 20px;
   background-color: white;
   border-left: 5px solid #c9591a;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(31, 45, 39, 0.12);
+  border-radius: 8px;
   text-align: left;
 }
 .produit {
@@ -98,13 +85,11 @@ h1 {
   background-color: white;
   border: 1px solid #cfe0d6;
   border-radius: 15px;
-  box-shadow: 0 2px 8px rgba(31, 45, 39, 0.12);
   text-align: center;
 }
 .sac img {
   width: 100%;
   height: 200px;
-  object-fit: cover;
   border-radius: 15px;
 }
 .prix {
@@ -134,9 +119,7 @@ h1 {
   border-radius: 15px;
   background-color: white;
 }
-.etape h3 {
-  color: #c9591a;
-}
+.etape h3 {color: #c9591a;}
 footer {
   padding: 25px;
   background-color: #1e4d3b;
@@ -144,6 +127,4 @@ footer {
   color: white;
   text-align: center;
 }
-footer a {
-  color: #e3b04b;
-}
+footer a {color: #e3b04b;}
